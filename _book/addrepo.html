@@ -1,0 +1,700 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>关联远程库 | QuickGit</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="Qiansen">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./clonerepo.html" />
+    
+    
+    <link rel="prev" href="./usegithub.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="5.2"
+        data-chapter-title="关联远程库"
+        data-filepath="addrepo.md"
+        data-basepath="."
+        data-revision="Sat May 14 2016 15:00:40 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="production.html">
+            
+                
+                    <a href="./production.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Git简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="install.html">
+            
+                
+                    <a href="./install.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Git安装
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="installgit.html">
+            
+                
+                    <a href="./installgit.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        安装Git
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="setgit.html">
+            
+                
+                    <a href="./setgit.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        配置Git
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="ignorefile.html">
+            
+                
+                    <a href="./ignorefile.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        忽略文件
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="start.html">
+            
+                
+                    <a href="./start.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Git起步
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="createrepo.html">
+            
+                
+                    <a href="./createrepo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        版本库创建
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="addfile.html">
+            
+                
+                    <a href="./addfile.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        添加文件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="commit.html">
+            
+                
+                    <a href="./commit.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        提交
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="contral.html">
+            
+                
+                    <a href="./contral.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        版本控制
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="back.html">
+            
+                
+                    <a href="./back.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        版本回退
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="direction.html">
+            
+                
+                    <a href="./direction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        工作区和暂存区
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="dealchange.html">
+            
+                
+                    <a href="./dealchange.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        管理修改
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="delchange.html">
+            
+                
+                    <a href="./delchange.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        撤销修改
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="delfile.html">
+            
+                
+                    <a href="./delfile.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        删除文件
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="remote.html">
+            
+                
+                    <a href="./remote.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        远程操作
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="usegithub.html">
+            
+                
+                    <a href="./usegithub.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        使用Github
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.2" data-path="addrepo.html">
+            
+                
+                    <a href="./addrepo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        关联远程库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="clonerepo.html">
+            
+                
+                    <a href="./clonerepo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        克隆远程库
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="contralbranch.html">
+            
+                
+                    <a href="./contralbranch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        管理分支
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="createbranch.html">
+            
+                
+                    <a href="./createbranch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        分支创建与切换
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="mergebranch.html">
+            
+                
+                    <a href="./mergebranch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        分支合并与删除
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="confliction.html">
+            
+                
+                    <a href="./confliction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        分支冲突
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="stash.html">
+            
+                
+                    <a href="./stash.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                        使用Stash
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="corporation.html">
+            
+                
+                    <a href="./corporation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        多人协作
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="pushbranch.html">
+            
+                
+                    <a href="./pushbranch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        推送分支
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="pullbranch.html">
+            
+                
+                    <a href="./pullbranch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        抓取分支
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="contraltag.html">
+            
+                
+                    <a href="./contraltag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        标签管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="createtag.html">
+            
+                
+                    <a href="./createtag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.1.</b>
+                        
+                        标签创建
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="operatetag.html">
+            
+                
+                    <a href="./operatetag.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.2.</b>
+                        
+                        标签操作
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="creategitserver.html">
+            
+                
+                    <a href="./creategitserver.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        搭建Git服务器建
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >QuickGit</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="&#x5173;&#x8054;&#x8FDC;&#x7A0B;&#x5E93;">&#x5173;&#x8054;&#x8FDC;&#x7A0B;&#x5E93;</h2>
+<p>&#x5982;&#x679C;&#x5DF2;&#x7ECF;&#x5728;&#x672C;&#x5730;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;Git&#x4ED3;&#x5E93;&#xFF0C;&#x53C8;&#x60F3;&#x5728;GitHub&#x521B;&#x5EFA;&#x4E00;&#x4E2A;Git&#x4ED3;&#x5E93;&#xFF0C;&#x5E76;&#x4E14;&#x8BA9;&#x8FD9;&#x4E24;&#x4E2A;&#x4ED3;&#x5E93;&#x8FDB;&#x884C;&#x8FDC;&#x7A0B;&#x540C;&#x6B65;&#xFF0C;&#x8FD9;&#x6837;&#xFF0C;GitHub&#x4E0A;&#x7684;&#x4ED3;&#x5E93;&#x65E2;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x5907;&#x4EFD;&#xFF0C;&#x53C8;&#x53EF;&#x4EE5;&#x548C;&#x5176;&#x4ED6;&#x4EBA;&#x901A;&#x8FC7;&#x8BE5;&#x4ED3;&#x5E93;&#x534F;&#x4F5C;&#x3002;</p>
+<p>&#x5177;&#x4F53;&#x6B65;&#x9AA4;&#xFF1A;</p>
+<ol>
+<li>&#x767B;&#x9646;GitHub&#xFF0C;&#x7136;&#x540E;&#xFF0C;&#x5728;&#x53F3;&#x4E0A;&#x89D2;&#x627E;&#x5230;<code>Create a new repo</code>&#x6309;&#x94AE;&#xFF0C;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x4ED3;&#x5E93;</li>
+<li>&#x5728;<code>Repository name</code>&#x586B;&#x5165;&#x4EFB;&#x610F;&#x4ED3;&#x5E93;&#x540D;&#xFF0C;&#x4EE5;<code>reponame</code>&#x4E3A;&#x4F8B;&#xFF0C;&#x5176;&#x4ED6;&#x4FDD;&#x6301;&#x9ED8;&#x8BA4;&#x8BBE;&#x7F6E;&#xFF0C;&#x70B9;&#x51FB;<code>Create repository</code>&#x6309;&#x94AE;&#xFF0C;&#x5C31;&#x6210;&#x529F;&#x5730;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x65B0;&#x7684;Git&#x4ED3;&#x5E93;</li>
+<li><p>&#x5728;&#x672C;&#x5730;&#x4F60;&#x60F3;&#x5173;&#x8054;&#x7684;&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C;&#xFF1A;</p>
+<pre><code> git remote add origin git@github.com:yourid/repo.git
+</code></pre><p> &#x5176;&#x4E2D;&#xFF0C;<code>yourid</code>&#x662F;&#x4F60;GitHub&#x7684;ID&#xFF0C;<code>repo</code>&#x662F;&#x4F60;&#x5728;GitHub&#x4E0A;&#x5EFA;&#x7ACB;&#x7684;&#x8FDC;&#x7A0B;&#x5E93;&#x540D;&#xFF0C;&#x6DFB;&#x52A0;&#x540E;&#xFF0C;&#x8FDC;&#x7A0B;&#x5E93;&#x7684;&#x540D;&#x5B57;&#x662F;Git&#x9ED8;&#x8BA4;&#x7684;<code>origin</code></p>
+</li>
+<li><p>&#x5C06;&#x672C;&#x5730;&#x4ED3;&#x5E93;&#x7684;&#x5185;&#x5BB9;&#x63A8;&#x9001;&#x5230;&#x8FDC;&#x7A0B;&#x5E93;&#x4E0A;&#xFF1A;</p>
+<pre><code> git push -u origin master
+</code></pre><p> &#x7B2C;&#x4E00;&#x6B21;&#x63A8;&#x9001;master&#x5206;&#x652F;&#x65F6;&#xFF0C;&#x52A0;&#x4E0A;<code>-u</code>&#x53C2;&#x6570;&#xFF0C;&#x8FD9;&#x6837;Git&#x4E0D;&#x4F46;&#x4F1A;&#x628A;&#x672C;&#x5730;&#x7684;master&#x5206;&#x652F;&#x5185;&#x5BB9;&#x63A8;&#x9001;&#x7684;&#x8FDC;&#x7A0B;master&#x5206;&#x652F;&#xFF0C;&#x8FD8;&#x4F1A;&#x628A;&#x672C;&#x5730;&#x7684;master&#x5206;&#x652F;&#x548C;&#x8FDC;&#x7A0B;&#x7684;master&#x5206;&#x652F;&#x5173;&#x8054;&#x8D77;&#x6765;&#xFF0C;&#x4EE5;&#x540E;&#x63A8;&#x9001;&#x65F6;&#x5C31;&#x53EF;&#x4EE5;&#x4E0D;&#x4F1A;&#x52A0;<code>-u</code>&#x5566;</p>
+</li>
+</ol>
+<h4 id="ssh&#x8B66;&#x544A;">SSH&#x8B66;&#x544A;</h4>
+<p>&#x5F53;&#x7B2C;&#x4E00;&#x6B21;&#x4F7F;&#x7528;Git&#x7684;clone&#x6216;&#x8005;push&#x547D;&#x4EE4;&#x8FDE;&#x63A5;GitHub&#x65F6;&#xFF0C;&#x4F1A;&#x5F97;&#x5230;&#x4E00;&#x4E2A;&#x8B66;&#x544A;&#xFF1A;</p>
+<pre><code>The authenticity of host &apos;github.com (xx.xx.xx.xx)&apos; can&apos;t be established.
+RSA key fingerprint is xx.xx.xx.xx.xx.
+Are you sure you want to continue connecting (yes/no)?
+</code></pre><p>&#x8FD9;&#x662F;&#x56E0;&#x4E3A;Git&#x4F7F;&#x7528;SSH&#x8FDE;&#x63A5;&#xFF0C;&#x800C;SSH&#x8FDE;&#x63A5;&#x5728;&#x7B2C;&#x4E00;&#x6B21;&#x9A8C;&#x8BC1;GitHub&#x670D;&#x52A1;&#x5668;&#x7684;Key&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x786E;&#x8BA4;GitHub&#x7684;Key&#x7684;&#x6307;&#x7EB9;&#x4FE1;&#x606F;&#x662F;&#x5426;&#x771F;&#x7684;&#x6765;&#x81EA;GitHub&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x8F93;&#x5165;yes&#x56DE;&#x8F66;&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x8FD9;&#x65F6;&#x4F1A;&#x51FA;&#x73B0;&#x4E00;&#x4E2A;Warning&#xFF0C;&#x544A;&#x8BC9;&#x4F60;&#x5DF2;&#x7ECF;&#x628A;GitHub&#x7684;Key&#x6DFB;&#x52A0;&#x5230;&#x672C;&#x673A;&#x7684;&#x4E00;&#x4E2A;&#x4FE1;&#x4EFB;&#x5217;&#x8868;&#x91CC;&#x4E86;&#xFF1A;</p>
+<pre><code>Warning: Permanently added &apos;github.com&apos; (RSA) to the list of known hosts.
+</code></pre><p>&#x8FD9;&#x4E2A;&#x8B66;&#x544A;&#x53EA;&#x4F1A;&#x51FA;&#x73B0;&#x4E00;&#x6B21;&#xFF0C;&#x540E;&#x9762;&#x7684;&#x64CD;&#x4F5C;&#x5C31;&#x4E0D;&#x4F1A;&#x6709;&#x4EFB;&#x4F55;&#x8B66;&#x544A;&#x4E86;&#x3002;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./usegithub.html" class="navigation navigation-prev " aria-label="Previous page: 使用Github"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./clonerepo.html" class="navigation navigation-next " aria-label="Next page: 克隆远程库"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
